@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engel Motors - Vehículos</title>
+    <script src="https://kit.fontawesome.com/2ddf0e9ed3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <form action="" class="formulario">
+            <div>
+                <label for="Correo electrónico o nombre de usuario:">Correo electrónico o nombre de usuario:</label>
+                <input type="text" placeholder="Ingrese aquí su correo o usuario..."
+                    name="correo electrónico o nombre de usuario" id="Correo electrónico o nombre de usuario:">
+                <div>
+                    <label for="Contraseña">Contraseña:</label>
+                    <input type="password" placeholder="Ingrese aquí su contraseña..." id="Contraseña">
+                </div>
+            </div>
+            <div>
+                <label for="tipo">Consulta acerca de:</label>
+                <select name="tipo" id="tipo">
+                    <option value="Necesito asesoría online">Necesito asesoría online</option>
+                    <option value="¿Donde estamos ubicados?">¿Donde estamos ubicados?</option>
+                    <option value="Nuestras redes">Nuestras redes</option>
+                    <option value="Ayuda">Ayuda</option>
+                    <option value="Valorar">Valorar</option>
+                </select>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+        <i class="barra__icono fas fa-bars"></i>
+        <nav>
+            <ul class="flex">
+                <li class="flex__hijo flex__hijo--1"><a href="/index.html">INICIO</a></li>
+                <li class="flex__hijo flex__hijo--2"><a href="../pages/vehiculos.html">VEHÍCULOS</a></li>
+                <li class="flex__hijo flex__hijo--3"><a href="../pages/financiación.html">FINANCIACIÓN</a></li>
+                <li class="flex__hijo flex__hijo--4"><a href="../pages/sobrenosotros.html">SOBRE NOSOTROS</a></li>
+                <li class="flex__hijo flex__hijo--5"><a href="../pages/contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div>
+            <img class="logotipo" src="/imagenes/logojuan.png" alt="">
+        </div>
+    </header>
+    <main class="mainvehiculos">
+        <div>
+            <h2 class="tpv">
+                VEHÍCULOS
+            </h2>
+        </div>
+        <div class="titulovehiculos">
+            <h2>
+                ¡Aquí podras encontrar todos los vehiculos que tenemos disponibles para vos!
+            </h2>
+        </div>
+        <div class="grid">
+            <img class="grid__hijo grid__hijo--1" src="/imagenes/claseg.jpg" alt=""> 
+            <img class="grid__hijo grid__hijo--2" src="/imagenes/ford.jpg" alt="">
+            <img class="grid__hijo grid__hijo--3" src="/imagenes/mba45.jpg" alt="">
+            <img class="grid__hijo grid__hijo--4" src="/imagenes/mb63.jpg" alt="">
+            <img class="grid__hijo grid__hijo--5" src="/imagenes/mercedes.jpg" alt="">
+            <img class="grid__hijo grid__hijo--6" src="/imagenes/smart.jpg" alt="">
+            <img class="grid__hijo grid__hijo--7" src="/imagenes/mini.jpg" alt="">
+            <img class="grid__hijo grid__hijo--8" src="/imagenes/peugeot.jpg" alt="">
+            <img class="grid__hijo grid__hijo--9" src="/imagenes/x5.jpg" alt="">
+        </div>
+        <form class="pregunta" action="">
+            <div>
+                <h2>
+                    ¿Desea recibir novedades acerca de nuevas publicaciones?
+                </h2>
+                <div>
+                    <label for="Si">Si</label>
+                    <input type="radio" name="consulta" value="Si" id="Si">
+
+                    <label for="No">No</label>
+                    <input type="radio" name="consulta" value="No" id="No">
+                </div>
+                <div>
+                    <label for="Comentarios">Comentarios</label>
+                    <textarea name="Comentarios" id="Comentarios" cols="40" rows="8"
+                        placeholder="Escribe aquí tus comentarios..."></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar comentarios">
+                    <input type="reset" value="Limpiar">
+                </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <h3>
+                Visitanos en nuestras redes:
+            </h3>
+        </div>
+        <a target="_blank" href="https://www.instagram.com/">Instagram</a>
+        <a target="_blank" href="https://www.facebook.com/">Facebook</a>
+        <a target="_blank" href="https://web.whatsapp.com/">Whatsapp</a>
+        <dl>
+            <dt>
+               <h3>
+                Nuestros horarios:
+               </h3> 
+            </dt>
+            <dd>
+                <h4>
+                    Lunes a Viernes de 09:00 - 18:30
+                    Sabados de 09:30 - 13:00
+                </h4>
+            </dd>
+        </dl>
+    </footer>
+</body>
+</html>
