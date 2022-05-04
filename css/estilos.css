@@ -172,7 +172,10 @@ a {
     transform: scale(1.1);
     cursor: pointer;
     transition: all 500ms ease-out;
+}
 
+.h5 {
+    text-align: center;
 }
     /* Fin del Index y comienzo de la página Vehiculos :) */
 
