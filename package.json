@@ -1,0 +1,20 @@
+{
+  "name": "engelmotors",
+  "version": "1.0.0",
+  "description": "probando sass",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass style.scss ./style.css -w --no-source-map -s compressed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancruzengel/ProyectoEngelMotorsCoderHouse.git"
+  },
+  "author": "Juan Cruz Engel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancruzengel/ProyectoEngelMotorsCoderHouse/issues"
+  },
+  "homepage": "https://github.com/juancruzengel/ProyectoEngelMotorsCoderHouse#readme"
+}
