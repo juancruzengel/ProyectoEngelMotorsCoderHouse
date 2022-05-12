@@ -15,11 +15,12 @@ font-family: 'Source Sans Pro', sans-serif;
 .formulario {
     background-color: darkred;
     color: white;
-    text-align:right;
-    font-size: 22px;
+    text-align:left;
+    font-size: 15px;
     line-height: 2;
     font-style: normal;
     font-weight: 300;
+    padding: 1rem;
 }
 
 .barra__icono {
@@ -35,6 +36,67 @@ font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     line-height: 2;
 }
+
+.correo {
+    color: white;
+    background-color: darkred;
+    font-size: 18px;
+    margin: auto;
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.contraseña {
+    color: white;
+    background-color: darkred;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 15px; 
+}
+
+.recordarme {
+    color: white;
+    background-color: darkred;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 1rem;
+    
+}
+
+.consulta {
+    background-color: darkred;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    
+}
+.asesoria {
+    background-color: darkred;
+    font-size: 18px;
+    color: white;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.boton {
+    background-color: darkred;
+    height: 5px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    height: 100%;
+}
+
+.boton-primario {
+    color: black;
+    font-size: 20px;
+    width: 70px;
+
+}
+
 
 .slogan {
     background-color: black;
@@ -78,8 +140,7 @@ footer {
     display: block;
     margin: auto;
     height: auto;
-    border-radius: 50%;
-    
+    border-radius: 50%;  
 }
 
 .beneficios {
@@ -132,6 +193,7 @@ footer {
 
 .flex {
     background-color: black;
+    width: 100%;
     font-size: 20px;
     font-weight: 900;
     list-style-type: none;
@@ -212,6 +274,7 @@ a {
 }
 
 .grid__hijo {
+    cursor: pointer;
     height: 250px;
     width: 415px;
     margin: 10px;
