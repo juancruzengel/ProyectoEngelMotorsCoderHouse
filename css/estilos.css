@@ -239,6 +239,18 @@ a {
 .h5 {
     text-align: center;
 }
+
+.derechos {
+    text-align: center;
+}
+
+.comentarios {
+    padding: 1rem;
+}
+
+.botones {
+    padding: 1rem;
+}
     /* Fin del Index y comienzo de la página Vehiculos :) */
 
 .mainvehiculos {
