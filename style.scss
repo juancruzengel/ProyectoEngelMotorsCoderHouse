@@ -5,3 +5,13 @@ h1 {
 span {
     color:yellow
 } 
+
+.container {
+    background-color: coral;
+
+
+  &__text {
+    color: blue;
+  }
+
+}
