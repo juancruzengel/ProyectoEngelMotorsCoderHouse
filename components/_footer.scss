@@ -1,0 +1,17 @@
+h1 {
+    color:violet
+}
+
+span {
+    color:yellow
+} 
+
+.container {
+    background-color: coral;
+
+
+  &__text {
+    color: blue;
+  }
+
+}
