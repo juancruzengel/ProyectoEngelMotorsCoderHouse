@@ -1,17 +1,18 @@
-h1 {
-    color:violet
+footer {
+  color: white;
+
+  & {
+    background-color: darkred;
+    text-align: center;
+    padding:2rem;
+  }
 }
 
-span {
-    color:yellow
-} 
+h3 {
+  background-color: $bgcolor;
+  padding: 1rem;
+}
 
-.container {
-    background-color: coral;
-
-
-  &__text {
-    color: blue;
-  }
-
+h4 {
+  padding: 1rem;
 }

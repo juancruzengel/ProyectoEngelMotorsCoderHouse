@@ -1,0 +1,36 @@
+main {
+    background-color: darkred;
+
+    & {
+        text-align: center;
+        color: white;
+        padding: 3rem;
+    }
+}
+
+.numero {
+    background-color: $bgcolor;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.contact {
+    background-color: $bgcolor;
+}
+.contacto__grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 35px;
+    padding: 2rem;
+}
+
+.comentarios {
+    padding: 1rem;
+}
+
+.botones {
+    padding: 1rem;
+}
+
+
