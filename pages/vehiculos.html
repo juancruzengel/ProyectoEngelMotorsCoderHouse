@@ -1,59 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engel Motors - Vehículos</title>
 
-<!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
     <script src="https://kit.fontawesome.com/2ddf0e9ed3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Source+Sans+Pro:wght@300;600&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="correo">
-            <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
-            <label for="floatingInput">Dirección de correo</label>
-        </div>
+        <form action="">
+            <div class="correo">
+                <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+                <label for="floatingInput">Dirección de correo</label>
+            </div>
 
-        <div class="contraseña">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
-            <label for="floatingPassword">Contraseña</label>
-        </div>
+            <div class="contraseña">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+                <label for="floatingPassword">Contraseña</label>
+            </div>
 
-        <div class="recordarme">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-        </div>
+            <div class="recordarme">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+            </div>
 
-        <div class="consulta">
+            <div class="consulta">
                 <label for="tipo">Consulta acerca de</label>
-        </div>
+            </div>
 
-        <div class="asesoria">
-            <select name="tipo" id="tipo">
-                <option value="Necesito asesoría online">Necesito asesoría online</option>
-                <option value="¿Donde estamos ubicados?">¿Donde estamos ubicados?</option>
-                <option value="Nuestras redes">Nuestras redes</option>
-                <option value="Ayuda">Ayuda</option>
-                <option value="Valorar">Valorar</option>
-            </select>
-        </div>
-                       
-        <div class="boton">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-      
-        <i class="barra__icono fas fa-bars"></i>
-        <nav>
+            <div class="asesoria">
+                <select name="tipo" id="tipo">
+                    <option value="Necesito asesoría online">Necesito asesoría online</option>
+                    <option value="¿Donde estamos ubicados?">¿Donde estamos ubicados?</option>
+                    <option value="Nuestras redes">Nuestras redes</option>
+                    <option value="Ayuda">Ayuda</option>
+                    <option value="Valorar">Valorar</option>
+                </select>
+            </div>
+
+            <div class="boton">
+                <button type="submit" class="boton-primario">Enviar</button>
+            </div>
+
+        </form>
+
+        <a class="header__open" href="sidebar">
+            <i class="barra__icono fas fa-bars"></i>
+        </a>
+
+        <nav class="nav" id="sidebar">
             <ul class="flex">
                 <li class="flex__hijo flex__hijo--1"><a href="../index.html">INICIO</a></li>
                 <li class="flex__hijo flex__hijo--2"><a href="./vehiculos.html">VEHÍCULOS</a></li>
@@ -63,7 +75,7 @@
             </ul>
         </nav>
         <div>
-            <img class="logotipo" src="/imagenes/logojuan.png" alt="logo de la empresa">
+            <img class="logotipo" src="../imagenes/logojuan.png" alt="logo de la empresa">
         </div>
     </header>
     <main class="mainvehiculos">
@@ -78,17 +90,18 @@
             </h2>
         </div>
         <div class="grid">
-            <img class="grid__hijo grid__hijo--1" src="/imagenes/claseg.jpg" alt="camioneta mercedes benz" width="250px" height="200px"> 
-            <img class="grid__hijo grid__hijo--2" src="/imagenes/ford.jpg" alt="ford focus" width="250px" height="200px">
-            <img class="grid__hijo grid__hijo--3" src="/imagenes/mba45.jpg" alt="mercedes benz a45" width="250px" height="200px">
-            <img class="grid__hijo grid__hijo--4" src="/imagenes/mb63.jpg" alt="mercedes benz c63" width="250px" height="200px">
-            <img class="grid__hijo grid__hijo--5" src="/imagenes/mercedes.jpg" alt="mercedes benz sla" width="250px" height="200px">
-            <img class="grid__hijo grid__hijo--6" src="/imagenes/smart.jpg" alt="smart" width="250px" height="200px">
-            <img class="grid__hijo grid__hijo--7" src="/imagenes/mini.jpg" alt="mini cooper" width="250px" height="200px">
-            <img class="grid__hijo grid__hijo--8" src="/imagenes/peugeot.jpg" alt="peugeot 308cc" width="250px" height="200px">
-            <img class="grid__hijo grid__hijo--9" src="/imagenes/x5.jpg" alt="bmw x5" width="250px" height="200px">
+            <img class="grid__hijo grid__hijo--1" src="../imagenes/claseg.jpg" alt="camioneta mercedes benz">
+            <img class="grid__hijo grid__hijo--2" src="../imagenes/ford.jpg" alt="ford focus">
+            <img class="grid__hijo grid__hijo--3" src="../imagenes/mba45.jpg" alt="mercedes benz a45">
+            <img class="grid__hijo grid__hijo--4" src="../imagenes/mb63.jpg" alt="mercedes benz c63">
+            <img class="grid__hijo grid__hijo--5" src="../imagenes/mercedes.jpg" alt="mercedes benz sla">
+            <img class="grid__hijo grid__hijo--6" src="../imagenes/smart.jpg" alt="smart">
+            <img class="grid__hijo grid__hijo--7" src="../imagenes/mini.jpg" alt="mini cooper">
+            <img class="grid__hijo grid__hijo--8" src="../imagenes/peugeot.jpg" alt="peugeot 308cc">
+            <img class="grid__hijo grid__hijo--9" src="../imagenes/x5.jpg" alt="bmw x5">
         </div>
-        <form class="pregunta" action="">
+
+        <form class="pregunta">
             <div>
                 <h3>
                     ¿Desea recibir novedades acerca de nuevas publicaciones?
@@ -118,14 +131,16 @@
                 Visitanos en nuestras redes:
             </h4>
         </div>
+
         <a target="_blank" href="https://www.instagram.com/">Instagram</a>
         <a target="_blank" href="https://www.facebook.com/">Facebook</a>
         <a target="_blank" href="https://web.whatsapp.com/">Whatsapp</a>
+
         <dl>
             <dt>
-               <h5>
-                Nuestros horarios:
-               </h5> 
+                <h5>
+                    Nuestros horarios:
+                </h5>
             </dt>
             <dd>
                 <h6>
@@ -138,7 +153,7 @@
         <div class="derechos">
             <h7>Engel Motors S.A 2022 - Todos los derechos reservados.</h7>
         </div>
-        
     </footer>
 </body>
+
 </html>
