@@ -25,12 +25,16 @@ main {
     padding: 2rem;
 }
 
-.comentarios {
-    padding: 1rem;
+.comentarios { @include pad (1rem);
+    @include pad (1rem);
 }
 
 .botones {
-    padding: 1rem;
+    @include pad (1rem);
 }
 
+// MIXIN!!!
 
+@mixin pad ($paddding) {
+    padding: $paddding;   
+}

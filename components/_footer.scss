@@ -9,10 +9,28 @@ footer {
 }
 
 h3 {
-  background-color: $bgcolor;
+  @extend .fondoColor;
   padding: 1rem;
 }
 
 h4 {
+  @extend .fondoColor;
   padding: 1rem;
+}
+
+$rrss: (
+  instagram:#c92d8f,
+  facebook: #55acee,
+  whatsapp: green,
+);
+
+
+@each $name, $color in $rrss {
+  .#{name} {
+  background-color: $color;
+  margin: 0 5px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 20px ;
+  }
 }
