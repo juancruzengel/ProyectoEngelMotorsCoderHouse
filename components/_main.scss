@@ -4,7 +4,6 @@ main {
     & {
         text-align: center;
         color: white;
-        padding: 3rem;
     }
 }
 
@@ -25,16 +24,18 @@ main {
     padding: 2rem;
 }
 
-.comentarios { @include pad (1rem);
-    @include pad (1rem);
+// MIXIN!!!
+
+@mixin pad ($p) {
+    padding:$p;   
+}
+
+.comentarios { 
+    @include pad (auto)
 }
 
 .botones {
-    @include pad (1rem);
+    @include pad (auto)
 }
 
-// MIXIN!!!
 
-@mixin pad ($paddding) {
-    padding: $paddding;   
-}

@@ -1,7 +1,5 @@
 header {
-        background-color: darkred;
         color: white;
-        padding: 2rem;
         font-size: 18px;
 }
 
@@ -12,7 +10,6 @@ header {
     flex-direction: row;
     list-style-type: none;
     justify-content: space-evenly;
-    padding: 1rem;
 
     &__hijo {
         background-color: $bgcolor;

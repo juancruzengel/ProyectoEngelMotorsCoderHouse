@@ -1,8 +1,11 @@
-&__information {
-    @include pad (1rem);
-}
 
 
 .fondoColor {
     background-color: black;
+}
+
+.information{
+& {
+    @include pad (1rem);
+ }
 }

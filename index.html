@@ -30,43 +30,8 @@
 </head>
 
 <body>
-    <header class="header">
-        <form action="">
-            <div class="correo">
-                <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
-                <label for="floatingInput">Dirección de correo</label>
-            </div>
-
-            <div class="contraseña">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
-                <label for="floatingPassword">Contraseña</label>
-            </div>
-
-            <div class="recordarme">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-            </div>
-
-            <div class="consulta">
-                <label for="tipo">Consulta acerca de</label>
-            </div>
-
-            <div class="asesoria">
-                <select name="tipo" id="tipo">
-                    <option value="Necesito asesoría online">Necesito asesoría online</option>
-                    <option value="¿Donde estamos ubicados?">¿Donde estamos ubicados?</option>
-                    <option value="Nuestras redes">Nuestras redes</option>
-                    <option value="Ayuda">Ayuda</option>
-                    <option value="Valorar">Valorar</option>
-                </select>
-            </div>
-
-            <div class="boton">
-                <button type="submit" class="boton-primario">Enviar</button>
-            </div>
-
-        </form>
-
+    <header>
+       
         <!-- Barra hamburguesa para version movil -->
 
         <!-- <a class="header__open" href="#sidebar">
@@ -131,12 +96,50 @@
                 DESTACADOS DEL MES:
             </h2>
         </div>
+
         <!-- Imagenes optimizadas con tinypng -->
         <div class="imagenesdestacados">
             <img src="./imagenes/audi.jpg" alt="vehículo destacado audi">
             <img src="./imagenes/bmw.jpg" alt="vehículo destacado bmw">
             <img src="./imagenes/x5.jpg" alt="vehículo destacado x5">
         </div>
+
+        <form action="">
+            <div class="correo">
+                <label for="floatingInput">Dirección de correo</label>
+                <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+            </div>
+
+            <div class="contraseña">
+                <label for="floatingPassword">Contraseña</label>
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+            </div>
+
+            <div class="recordarme">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+            </div>
+
+            <div class="consulta">
+                <label for="tipo">Consulta acerca de</label>
+            </div>
+
+            <div class="asesoria">
+                <select name="tipo" id="tipo">
+                    <option value="Necesito asesoría online">Necesito asesoría online</option>
+                    <option value="¿Donde estamos ubicados?">¿Donde estamos ubicados?</option>
+                    <option value="Nuestras redes">Nuestras redes</option>
+                    <option value="Ayuda">Ayuda</option>
+                    <option value="Valorar">Valorar</option>
+                </select>
+            </div>
+
+            <div class="boton">
+                <button type="submit" class="boton-primario">Enviar</button>
+            </div>
+
+        </form>
+
 
         <form class="pregunta">
             <div>
