@@ -6,6 +6,12 @@
         display: none;
     }
 
+    .imagenesdestacados {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
     .barra__icono {
         display: block;
         background-color: darkred;
@@ -15,7 +21,6 @@
         margin-bottom: 1rem;;
     }
 
-    
     .grid {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -43,6 +48,12 @@
         width: 100%;
     }
 
+    .imagenesdestacados {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
     .flex {
         width: 100%;
         flex-direction: column;
@@ -60,9 +71,10 @@
         margin-top: 1rem;
         margin-bottom: 1rem;;
     }
+    
     .grid {
-        grid-template-columns: 2fr;
-        grid-template-rows: 2fr;
+        grid-template-columns:2fr;
+        grid-template-rows:2fr;
         grid-template-areas:
         "ele1"
         "ele2"

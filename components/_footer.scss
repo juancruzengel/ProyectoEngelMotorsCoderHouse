@@ -1,16 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 footer {
+  text-decoration: none;
   color: white;
-
-  & {
-    background-color: darkred;
-    text-align: center;
-  }
+  background-color: darkred;
+  font-style:normal;
+  font-size: 18px;
+  line-height: 3;
+  text-align: center;
 }
 
 h3 {

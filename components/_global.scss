@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.fondoColor {
+    background-color: black;
+}
+
+.information{
+& {
+    @include pad (1rem);
+ }
+}
+
+.correo {
+    color: white;
+    background-color: darkred;
+    font-size: 18px;
+    margin: auto;
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.contraseña {
+    color: white;
+    background-color: darkred;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 15px; 
+}
+
+.recordarme {
+    color: white;
+    background-color: darkred;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 1rem;
+    
+}
+
+.consulta {
+    background-color: darkred;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    
+}
+.asesoria {
+    background-color: darkred;
+    font-size: 18px;
+    color: white;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.boton {
+    background-color: darkred;
+    height: 5px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    height: 100%;
+}
+
+.boton-primario {
+    color: black;
+    font-size: 20px;
+    width: 70px;
+}
