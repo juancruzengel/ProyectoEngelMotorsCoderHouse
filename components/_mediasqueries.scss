@@ -1,0 +1,130 @@
+// VISTA TABLET INDEX
+
+@media screen and (max-width:1024px) {
+
+    .formulario {
+        display: none;
+    }
+
+    .barra__icono {
+        display: block;
+        background-color: darkred;
+        color: white;
+        font-size: 40px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;;
+    }
+
+    
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "ele1 ele2"
+        "ele3 ele4"
+        "ele5 ele6" 
+        "ele7 ele8";
+        justify-content: space-evenly;
+    }
+
+    .grid__hijo {
+        width: 95%;
+        height: 90%;
+        gap: 1rem;
+    }
+
+}
+
+/* VISTA MOVIL INDEX */
+
+@media screen and (max-width:600px) {
+
+    .logotipo {
+        width: 100%;
+    }
+
+    .flex {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .formulario {
+        display: none;
+    }
+
+    .barra__icono {
+        display: block;
+        background-color: darkred;
+        color: white;
+        font-size: 40px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;;
+    }
+    .grid {
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
+        grid-template-areas:
+        "ele1"
+        "ele2"
+        "ele3"
+        "ele4"
+        "ele5"
+        "ele6" 
+        "ele7"
+        "ele8";
+        justify-content: space-evenly;
+    }
+
+    .grid__hijo {
+        width: 95%;
+        height: 90%;
+        gap: 1rem;
+    }
+}
+
+/* VISTA TABLET-MOVIL CONTACTO */
+
+@media screen and (max-width:1024px) {
+    
+    
+}
+
+@media screen and (max-width:600px) {
+    .logotipo {
+        width: 100%;
+    }
+
+    .flex {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+
+/* VISTA TABLET-MOVIL FINANCIACIÓN */
+
+@media screen and (max-width:1024px) {
+    .metodos__grid {
+        background-color: darkred;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 20px;
+        font-weight:300;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .logotipo {
+        width: 100%;
+    }
+
+    .flex {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
