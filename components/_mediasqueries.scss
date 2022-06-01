@@ -73,6 +73,12 @@
         margin-top: 1rem;
         margin-bottom: 1rem;;
     }
+
+    .beneficios__grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
     
     .grid {
         grid-template-columns:2fr;
