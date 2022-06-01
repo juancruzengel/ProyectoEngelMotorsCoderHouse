@@ -7,9 +7,10 @@
     }
 
     .imagenesdestacados {
-        display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        width: 100%;
+        height: 60%;
+        gap: 2rem;
     }
 
     .barra__icono {
@@ -49,9 +50,10 @@
     }
 
     .imagenesdestacados {
-        display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        width: 100%;
+        height: 60%;
+        gap: 2rem;
     }
 
     .flex {
