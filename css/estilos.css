@@ -212,19 +212,6 @@ a {
     font-weight: 900;
     text-align: center;
 }
-.imagenesdestacados {
-    display: flex;
-    flex-direction: row;
-    height: 250px;
-    margin: 0% ;
-    justify-content: space-evenly;
-    padding: 10px;
-}
-.imagenesdestacados img:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    transition: all 500ms ease-out;
-}
 
 .h5 {
     text-align: center;

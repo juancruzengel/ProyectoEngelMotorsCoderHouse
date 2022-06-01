@@ -59,20 +59,33 @@ main {
     line-height: 2;
 }
 
-.imagenesdestacados {
-    display: flex;
-    flex-direction: row;
-    height: 250px;
+.gridIndex {
+    gap:1rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "ele1 ele2 ele3";
     justify-content: space-evenly;
-    padding: 10px;
 }
 
-.imagenesdestacados img:hover {
+.gridIndex__hijo {
+    cursor: pointer;
+    height: 250px;
+    width: 415px;
+    margin: 10px;
+
+}
+.gridIndex__hijo--1 {
+    grid: ele1;
+}
+
+.gridIndex img:hover {
         transform: scale(1.1);
         cursor:pointer;
         transition: all 500ms ease-out;
 }    
-
 
 .beneficios__grid {
     display: grid;

@@ -22,6 +22,22 @@
         margin-bottom: 1rem;;
     }
 
+    .gridIndex {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "ele1" 
+        "ele2"
+        "ele3";
+        justify-content: space-evenly;
+    }
+
+    .gridIndex__hijo {
+        width: 95%;
+        height: 90%;
+        gap: 1rem;
+    }
+
     .grid {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
